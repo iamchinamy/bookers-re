@@ -14,14 +14,10 @@
  *= require_self
  */
 
+ @import "block"
+
  * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-body {
-	font-family: verdana, arial, helvetica, sans-serif;
-	font-size: 13px;
-	margin: 33px;
 }
