@@ -1,0 +1,11 @@
+div.book-edit
+  h1 Editing Book
+  = form_with model: @book, url: book_path do |f|
+    div.books__field
+      = f.label :title, 'Title', class: 'books__field-title'
+      = f.text_field :title
+    div.books__field
+      = f.label :body, 'Body', class: 'books__field-title'
+      = f.text_area :body
+    div.books__field
+      = f.submit "Update Book"
