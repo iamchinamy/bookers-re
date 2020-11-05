@@ -16,7 +16,7 @@ div.books
         td = book.body
         td = link_to 'Show', book_path(book.id)
         td = link_to 'Edit', edit_book_path(book.id)
-        td = link_to 'Destroy'
+        td = link_to 'Destroy', book_path(book.id), method: :delete, 'data-confirm' => 'Are you sure?'
 
   h2 New Book
   = form_with model: @book, url: books_path do |f|
