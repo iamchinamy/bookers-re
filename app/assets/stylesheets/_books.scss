@@ -1,0 +1,20 @@
+.books {
+  &__index-table th {
+    padding-bottom: 10px;
+  }
+
+  &__index-table td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-rigt: 5px;
+  }
+
+  &__field {
+    margin-bottom: 10px;
+  }
+
+  &__field-title {
+    display: block;
+  }
+
+}
